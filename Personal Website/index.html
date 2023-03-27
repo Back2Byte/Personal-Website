@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Notes de musique</title>
+
+
+
+
+
+
+    <!-- Bootsrap Script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous">
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="containers">
+        <h1>Les notes de musique</h1>
+        <hr>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(0);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(1);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(2);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(3);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(4);" alt="">
+        </div>
+        <hr>
+    </div>
+    <div class="containers">
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(5);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(6);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(7);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(8);" alt="">
+        </div>
+        <div class="notes">
+            <img src="images/note0.png" onclick="randomNote(9);" alt="">
+        </div>
+        <hr>
+    </div>
+    <div class="button">
+        <button class="btn btn-lg" onclick="restart();">Recommencer</button>
+        <button class="btn btn-lg" onclick="randomAll();">Relancer</button>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
