@@ -1,70 +1,89 @@
 body {
-    background-color: #4798cc;
-    display: block;
+    background-image: url("images/boite-musique/marioMovieBg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1 {
     color: white;
-    font-family: 'Courgette', cursive;
-
-    font-size: 6rem;
-    margin: 40px;
-}
-
-hr {
-    height: 2px;
-    background-color: white;
-    border: none;
+    font-family: 'Changa One', cursive;
+    font-size: 4vmax;
+    width: 80%;
+    margin: 2% auto;
+    text-align: center;
 }
 
 .button {
-    width: 50%;
-    margin: 0 auto;
+    margin: 1% auto;
     text-align: center;
 }
 
 .btn {
-    font-size: 2rem;
-    width: 300px;
-    padding: 2% 5%;
-    margin: 0 1rem;
-    border-color:#336d9d;
-    border-width: 2px;
+    background-image: url("images/boite-musique/brickBlock.png");
+    background-repeat: no-repeat;
+    font-size: 2vmax;
     color: #fff;
-    font-family: "Courgette", cursive;
+    font-family: 'Changa One', cursive;
+    border-radius: 0;
+    margin: auto 1%;
+}
+
+#restart {
+    padding: 12px 30px;
+    background-size: 100%;
+}
+
+#randomAll {
+    background-size: 100%;
+    padding: 10px 40px;
 }
 
 .btn:hover {
-    background-color: #336d9d;
-    border-color:#336d9d;
-    border-width: 2px;
-    color: #fff;
-    font-family: "Courgette", cursive;
+    color:#f4d009;
 }
 
-.btn:active:hover {
+/* .btn:active:hover {
     border-color:#336d9d;
     border-width: 2px;
     color: #fff;
-    font-family: "Courgette", cursive;
-}
+    font-family: 'Changa One', cursive;
+} */
 
 .containers {
-    width: 80%;
     margin: 0 auto;
     text-align: center;
+    width: 70vmax;
 }
 
 .notes {
+    width: 10%;
     display: inline-block;
     text-align: center;
-    
+    margin: 1% 1%;
+}
+
+.selection {
+    width: 8%;
+    display: inline-block;
+    text-align: center;
+    margin: 1% 1%;
 }
 
 img {
-    width: 80%;
-    border: 5px solid #336d9d;
-    background-color: #fff;
-    border-radius: 15px 15px;
+    width: 85%;
 }
 
+.onoff {
+    background-color: transparent;
+    border: none;
+    width: 4%;
+    position: absolute;
+    right: 20px;
+    top:10px;
+}
+
+input.checkNote {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
