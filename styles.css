@@ -38,6 +38,11 @@ h1 {
     padding: 10px 40px;
 }
 
+#blank {
+    background-size: 100%;
+    padding: 10px 40px;
+}
+
 .btn:hover {
     color:#f4d009;
 }

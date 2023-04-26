@@ -40,6 +40,14 @@ $("#restart").click(function () {
     }
 })
 
+$("#blank").click(function () {
+    $(".notes img").attr("src", "images/boite-musique/blankNote.png")
+    if (buttonstate) {
+        audio = new Audio("music/boite-musique/pause.mp3");
+        audio.play();
+    }
+})
+
 // ------------------Select all blocks at once------------------ //
 $("#randomAll").click(function () {
     if (listNotes.length !== 0) {
